@@ -1,0 +1,168 @@
+
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+} 
+ .container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+ }
+
+.header-title,
+.main-title{
+	  width: 100%;
+  min-height: 1px;
+}
+ @media (min-width: 320px){
+}
+
+
+.header-title{
+	flex: 0 0 33.333333%;
+    max-width: 100%;
+    order: 1;
+}
+.menu{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:1px solid #D9FFF5;
+    flex-wrap: nowrap;
+}
+
+
+.other__button{
+	visibility:hidden;
+    border: 0;
+    padding: 0;
+	width:40px;
+	height:40px;
+}
+.other__pic{
+   visibility:visible;
+
+}
+
+
+.logo__button{
+	visibility:hidden;
+    border: 0;
+    padding: 0;
+	width:96.55px;
+	height:50.81px;
+}
+.logo__pic{
+	visibility:visible;
+}
+
+
+.kit__button{
+	visibility:hidden;
+    border: 0;
+    padding: 0;
+	width:40px;
+	height: 40px;	
+} 
+.kit__pic{
+	visibility:visible;
+}
+
+
+.search__button{
+	visibility:hidden;
+    border: 0;
+    padding: 0;
+	width:40px;
+	height: 40px;
+}
+.search__pic{
+	visibility:visible;
+}
+
+.main-title{
+    flex: 0 0 66.666667%;
+    width:320px;
+    order: 1;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: TT Lakes;
+}
+
+.heading{
+	box-sizing: content-box;
+    width: 100%;
+    margin-top: 24px;
+}
+.heading__services{
+	width:280px;
+	height:40px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 16px;
+	font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    
+}
+
+.heading__design{
+	display: block;
+	float: left;
+	background-image:url("img/heading-design/highlight.svg");
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 40px;
+}
+
+.nav-title{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin-top: 24px;
+    margin-left:16px;
+}
+.hidden{
+    border:0;
+    background-color: white;
+
+    width:246px;
+    height: 40px;
+    padding: 0;
+}
+.hidden:active,
+      &:focus{
+border: 2px solid #B8FFEC;
+border-radius: 6px;
+}
+
+.discription{
+     	font-family: TT Lakes;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+     	margin-top: 24px;
+     	margin-left:16px;
+     	width:288px;
+     	height:90px;
+}
+.discription__repaired{
+	width:100%;
+    height:100%;
+	margin:0;
+}
+
+}
